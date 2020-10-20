@@ -1,7 +1,0 @@
-{
-  "app": "node deployment/bin/site.js",
-  "context": {
-    "@aws-cdk/core:enableStackNameDuplicates": "true",
-    "aws-cdk:enableDiffNoFail": "true"
-  }
-}
