@@ -1,5 +1,19 @@
-import React from "react"
+import React from 'react';
 
-export default function Home() {
-  return <div>404</div>
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+
+import Meta from '../meta.js';
+
+export default function SimpleContainer() {
+  return (
+    <React.Fragment>
+      <Meta />
+      <CssBaseline />
+      <Container >
+        <Typography component="div" style={{ backgroundColor: '#212121', height: '100vh' }} >404</Typography>
+      </Container>
+    </React.Fragment>
+  );
 }
