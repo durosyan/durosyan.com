@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import logoIcon from "./assets/terminal-logo-circle.svg"
+import logoIcon from "./assets/face_logo.svg"
 
 const SiteMetadata = () => {
   return (
@@ -14,7 +14,7 @@ const SiteMetadata = () => {
       <meta property="og:url" content="durosyan.com" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="durosyan" />
-      <meta property="og:image" content={`durosyan.com/${logoIcon}`} />
+      <meta property="og:image" content={`https://www.durosyan.com${logoIcon}`} />
       <meta property="og:image:alt" content="Durosyan Logo" />
       <meta property="og:image:width" content="512" />
       <meta property="og:image:height" content="512" />

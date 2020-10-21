@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 2100 2100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:5;">
+<svg width="100%" height="100%" viewBox="0 0 2100 2100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:5;">
     <g transform="matrix(1.84568,0,0,1.93041,5.11885,-114.396)">
         <ellipse cx="566.122" cy="603.187" rx="430.74" ry="446.64" style="fill:rgb(193,67,0);stroke:rgb(226,78,0);stroke-width:52.95px;"/>
     </g>
@@ -29,7 +29,7 @@
             <path d="M1088.22,1178.32C1088.22,1178.32 1129.55,1302.99 1029.55,1292.99" style="fill:none;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
             <path d="M1012.22,1268.99C1012.22,1268.99 1032.88,1253.66 1048.88,1256.32" style="fill:none;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
         </g>
-        <g id="Right-Ear" serif:id="Right Ear" transform="matrix(1.10484,0,0,1.10484,-68.0124,-89.0575)">
+        <g id="Right-Ear" transform="matrix(1.10484,0,0,1.10484,-68.0124,-89.0575)">
             <path d="M1433.68,1303.8C1434.95,1247.86 1440.78,1170.41 1446.31,1106.86C1451.86,1043.06 1457.1,993.261 1457.1,993.261L1457.13,993.238C1458.52,992.303 1502.88,962.62 1515.69,1001.07C1528.72,1040.14 1509.18,1262.79 1433.66,1304.46L1433.68,1303.8Z" style="fill:white;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
             <g transform="matrix(0.609121,0.0565236,-0.0923984,0.995722,693.459,-83.2796)">
                 <path d="M1486.04,1073.44C1486.04,1073.44 1493.65,1097.6 1489.97,1124.83C1487.06,1146.35 1471.5,1194.75 1470.35,1207.39" style="fill:none;stroke:black;stroke-width:10.92px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
@@ -38,7 +38,7 @@
                 <path d="M1460,1038.29C1460,1038.29 1476.93,1020.06 1492.55,1030.47" style="fill:none;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
             </g>
         </g>
-        <g id="Left-Ear" serif:id="Left Ear" transform="matrix(1.10484,0,0,1.10484,-68.0124,-89.0575)">
+        <g id="Left-Ear" transform="matrix(1.10484,0,0,1.10484,-68.0124,-89.0575)">
             <path d="M564.705,1238.37C561.236,1222.96 509.798,992.745 533.772,971.308C585.785,924.798 588.706,933.626 600.621,1065.7L600.556,1066.62C597.722,1105.65 588.861,1148.6 580.678,1181.87C572.432,1215.41 564.875,1239.12 564.875,1239.12L564.705,1238.37Z" style="fill:white;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
             <g transform="matrix(0.939537,-0.342447,0.342447,0.939537,-305.296,237.069)">
                 <path d="M541.457,997.656C541.457,997.656 552.161,979.088 568.545,1000.72" style="fill:none;stroke:black;stroke-width:9.05px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>

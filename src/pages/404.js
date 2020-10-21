@@ -12,7 +12,7 @@ export default function SimpleContainer() {
       <Meta />
       <CssBaseline />
       <Container >
-        <Typography component="div" style={{ backgroundColor: '#212121', height: '100vh' }} >404</Typography>
+        <Typography component="div" style={{ backgroundColor: '#212121' }} >404</Typography>
       </Container>
     </React.Fragment>
   );
