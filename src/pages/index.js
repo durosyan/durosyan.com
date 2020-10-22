@@ -61,7 +61,7 @@ export default function App() {
           </Box>
 
           <Box display="flex" className={classes.buttonBox}>
-            <a href="#" className={classes.link}>
+            <a href="https://github.com/durosyan" className={classes.link}>
               <Button>
                 <Box display="flex" className={classes.iconBox}>
                   <WallpaperIcon />
