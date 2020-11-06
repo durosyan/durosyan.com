@@ -1,86 +1,57 @@
 import React from 'react';
-
-import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
-import ThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import WallpaperIcon from '@material-ui/icons/Wallpaper';
-import EmailIcon from '@material-ui/icons/Email';
+import makeStyles from '@material-ui/core/styles/makeStyles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Avatar from '@material-ui/core/Avatar';
 
-import Meta from '../meta.js';
-import Icon from '../assets/face_logo.svg';
-import Button from '@material-ui/core/Button';
-import Box from '@material-ui/core/Box';
-
-const theme = createMuiTheme({
-  palette: {
-    type: 'dark',
-  },
-});
+import Meta from '../common/meta.js';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexGrow: 1,
+  page: {
     height: "100vh",
+    display: "flex",
     flexDirection: "column",
+    justifyContent: "center"
+  },
+  grid: {
+    textAlign: "center",
     flexWrap: "nowrap",
-    justifyContent: "center",
-  },
-  link: {
-    textDecoration: "none",
-    margin: theme.spacing(1)
-  },
-  iconBox: {
-    flexFlow: "column nowrap",
-    alignItems: "center"
+    width: "100vw",
+    padding: theme.spacing(2),
+    flexDirection: "column",
+    alignItems: "center",
+    overflow: "hidden"
   },
   icon: {
-    marginBottom: theme.spacing(3),
-    width: "300px"
+    [theme.breakpoints.down("md")]: { width: theme.spacing(7), height: theme.spacing(7) },
+    [theme.breakpoints.up("md")]: { width: theme.spacing(14), height: theme.spacing(14) }
   },
-  buttonBox: {
-    justifyContent: "center",
-    marginTop: theme.spacing(3),
-  }
+  pageTitle: {
+    [theme.breakpoints.down("sm")]: { fontSize: theme.spacing(5) },
+    fontSize: theme.spacing(10)
+  },
 }));
 
-export default function App() {
+export default function FrontPage() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <ThemeProvider theme={theme}>
-        <Meta />
-        <CssBaseline />
-        <Container className={classes.root}>
-          <Box display="flex" className={classes.iconBox}>
-            <Icon className={classes.icon} />
-            <Typography variant="h2">DUROSYAN</Typography>
-          </Box>
-
-          <Box display="flex" className={classes.buttonBox}>
-            <a href="https://github.com/durosyan" className={classes.link}>
-              <Button>
-                <Box display="flex" className={classes.iconBox}>
-                  <WallpaperIcon />
-                  <Typography>Projects</Typography>
-                </Box>
-              </Button>
-            </a>
-
-            <a href="mailto:durosyan@outlook.com" className={classes.link}>
-              <Button >
-                <Box display="flex" className={classes.iconBox}>
-                  <EmailIcon />
-                  <Typography>Contact</Typography>
-                </Box>
-              </Button>
-            </a>
-          </Box>
-        </Container>
-      </ThemeProvider >
-    </React.Fragment >
+    <CssBaseline>
+      <Meta />
+      <Grid container className={classes.page}>
+        <Grid container spacing={2} className={classes.grid}>
+          <Grid item xs={12}>
+            <Avatar src="/profile.jpg" className={classes.icon} />
+          </Grid>
+          <Grid item xs={12}>
+            <Typography className={classes.pageTitle}>DUROSYAN DESIGN</Typography>
+            <Typography>
+              Hey, I'm Ryan, this is my personal site, you want one?
+            </Typography>
+          </Grid>
+        </Grid>
+      </Grid>
+    </CssBaseline>
   );
 }

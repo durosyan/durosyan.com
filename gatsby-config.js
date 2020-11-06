@@ -13,7 +13,7 @@ module.exports = {
       options: {
         name: `Durosyan`,
         short_name: `Durosyan`,
-        icon: `src/assets/face_logo.svg`,
+        icon: `static/profile.jpg`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

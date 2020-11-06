@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-import Meta from '../meta.js';
+import Meta from '../common/meta.js';
 
 export default function SimpleContainer() {
   return (
