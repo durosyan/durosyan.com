@@ -14,4 +14,4 @@ jobs:
         with:
           node-version: 12
       - run: npm build
-      - run: npm build:push
+      - run: npm run build:push
