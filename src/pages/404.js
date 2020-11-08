@@ -11,8 +11,9 @@ export default function SimpleContainer() {
     <React.Fragment>
       <Meta />
       <CssBaseline />
-      <Container >
-        <Typography component="div" style={{ backgroundColor: '#212121' }} >404</Typography>
+      <Container style={{ textAlign: "center", padding: "10vh"}}>
+        <Typography component="div" >404, go back</Typography>
+        <img src="/trap.gif" />
       </Container>
     </React.Fragment>
   );
