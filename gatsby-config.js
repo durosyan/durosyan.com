@@ -24,9 +24,9 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
+          include: /assets/,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -44,8 +44,8 @@ module.exports = {
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Defers execution of google analytics script after page load
-        defer: false
+        defer: false,
       },
     },
   ],
-};
+}
